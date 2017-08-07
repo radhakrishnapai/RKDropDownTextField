@@ -19,6 +19,7 @@ RKDropDownTextField is a quick to install easy to use dropdown textField for iOS
 1. Drag and drop a `UIView` into storyboard. 
 2. Change its class to `RKDropDownTextField`.
 ![enter image description here](https://github.com/radhakrishnapai/RKDropDownTextField/blob/master/Example/Images/Custom_Class.png)
+
 3. Set necessary attributes in the attributes inspector.
 ![enter image description here](https://github.com/radhakrishnapai/RKDropDownTextField/blob/master/Example/Images/Attributes_Inspector.png)
 4. Create outlet.
