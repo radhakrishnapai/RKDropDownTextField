@@ -1,0 +1,16 @@
+PODS:
+  - RKDropDownTextField (0.1.0)
+
+DEPENDENCIES:
+  - RKDropDownTextField (from `../`)
+
+EXTERNAL SOURCES:
+  RKDropDownTextField:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RKDropDownTextField: 1247659a58b447aa609f2e49f9c0a5a1ec77780d
+
+PODFILE CHECKSUM: b481ce3caf02e43a03d06a5ada43801fe3ff3afd
+
+COCOAPODS: 1.2.1

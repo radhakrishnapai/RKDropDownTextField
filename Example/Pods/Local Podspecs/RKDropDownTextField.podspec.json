@@ -1,0 +1,22 @@
+{
+  "name": "RKDropDownTextField",
+  "version": "0.1.0",
+  "summary": "A short description of RKDropDownTextField.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Radhakrishna Pai/RKDropDownTextField",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Radhakrishna Pai": "radhakrishnapai09@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Radhakrishna Pai/RKDropDownTextField.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RKDropDownTextField/Classes/**/*"
+}

@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'RKDropDownTextField_Example' do
+  pod 'RKDropDownTextField', :path => '../'
+end
