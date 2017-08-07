@@ -17,7 +17,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
     self.dropDownTextField.delegate = self;
     self.dropDownTextField.values = [NSMutableArray arrayWithArray:@[@"Cat", @"Dog", @"Rat", @"Pig", @"Cow", @"Horse"]];
 }
