@@ -1,6 +1,6 @@
 # RKDropDownTextField
 
-[![CI Status](http://img.shields.io/travis/Radhakrishna Pai/RKDropDownTextField.svg?style=flat)](https://travis-ci.org/Radhakrishna Pai/RKDropDownTextField)
+[![CI Status](http://img.shields.io/travis/radhakrishnapai/RKDropDownTextField.svg?style=flat)](https://travis-ci.org/radhakrishnapai/RKDropDownTextField)
 [![Version](https://img.shields.io/cocoapods/v/RKDropDownTextField.svg?style=flat)](http://cocoapods.org/pods/RKDropDownTextField)
 [![License](https://img.shields.io/cocoapods/l/RKDropDownTextField.svg?style=flat)](http://cocoapods.org/pods/RKDropDownTextField)
 [![Platform](https://img.shields.io/cocoapods/p/RKDropDownTextField.svg?style=flat)](http://cocoapods.org/pods/RKDropDownTextField)
@@ -14,16 +14,19 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 RKDropDownTextField is a quick to install easy to use dropdown textField for iOS.
 
 ## How to use
-- Drag and drop a `UIView` into storyboard. 
-- Change its class to `RKDropDownTextField`.
-- Set necessary attributes in the attributes inspector.
-- Create outlet.
-- Set `delegate` as the object which conforms to the protocol `<RKDropDownTextFieldDelegate>`.
-- Implement delegate method 
+1. Drag and drop a `UIView` into storyboard. 
+2. Change its class to `RKDropDownTextField`.
+3. Set necessary attributes in the attributes inspector.
+4. Create outlet.
+5. Set `delegate` as the object which conforms to the protocol `<RKDropDownTextFieldDelegate>`.
+6. Implement delegate method 
 
-    - (void)dropDownTextField:(RKDropDownTextField *)dropDownTextField didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
+        - (void)dropDownTextField:(RKDropDownTextField *)dropDownTextField
+	      didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+        // Your code goes here
+        }
 
-- Set the property `values` with the possible values the list must contain.
+7. Set the property `values` with the possible values the list must contain.
 
 You are done! Run the code and try tapping on the DropDownTextField.
 
